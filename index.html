@@ -16,43 +16,52 @@
       </div>
       <div class="main-right">
         <p>
-          Developer tips and tricks? Oddball projects? Software esoteria? Dank
+          Developer tips and tricks? Oddball projects? Software esoterica? Dank
           memes?
           <br />
           <br />
-          Subscribe to see what I've been brewing in my Dev Lab!
+          Subscribe now to see what's brewing in the Dev Lab!
         </p>
-        <form action="./you-send-it" method="post">
+        <form action="./you-send-it" method="post" id="myForm">
           <legend>Sign on the Dotted Line</legend>
-          <div>
-            <label for="fname">First</label>
-            <input type="text" id="fname" name="fname" required />
-
-            <label for="lname">Last</label>
-            <input type="text" id="lname" name="lname" />
+          <div class="form-row">
+            <div class="form-element">
+              <label for="fname">FIRST NAME</label>
+              <input type="text" id="fname" name="fname" required />
+            </div>
+            <div class="form-element">
+              <label for="lname">LAST NAME</label>
+              <input type="text" id="lname" name="lname" />
+            </div>
           </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" />
+          <div class="form-row">
+            <div class="form-element">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-element">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
           </div>
-          <div>
-            <label for="pword">Password</label>
-            <input type="password" id="pword" name="pword" minlength="12" />
-
-            <label for="confirm-pword">Confirm Password</label>
-            <input
-              type="password"
-              id="confirm-pword"
-              name="confirm-pword"
-              minlength="12"
-              required
-            />
+          <div class="form-row">
+            <div class="form-element">
+              <label for="pword">PASSWORD</label>
+              <input type="password" id="pword" name="pword" minlength="12" />
+            </div>
+            <div class="form-element">
+              <label for="confirm-pword">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="confirm-pword"
+                name="confirm-pword"
+                minlength="12"
+                required
+              />
+            </div>
           </div>
-          <button type="submit">Submit</button>
         </form>
+        <button type="submit" form="myForm" value="update">Submit</button>
       </div>
     </div>
   </body>

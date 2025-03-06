@@ -15,13 +15,16 @@
         />
       </div>
       <div class="main-right">
-        <p>
-          Developer tips and tricks? Oddball projects? Software esoterica? Dank
-          memes?
-          <br />
-          <br />
-          Subscribe now to see what's brewing in the Dev Lab!
-        </p>
+        <div class="heading">
+          <p class="newsletter-text">Newsletter</p>
+          <p>
+            Developer tips and tricks? Oddball projects? Software esoterica?
+            Dank memes?
+            <br />
+            <br />
+            Subscribe now to see what's brewing in the Dev Lab!
+          </p>
+        </div>
         <form action="./you-send-it" method="post" id="myForm">
           <legend>Sign on the Dotted Line</legend>
           <div class="form-row">
@@ -47,7 +50,13 @@
           <div class="form-row">
             <div class="form-element">
               <label for="pword">PASSWORD</label>
-              <input type="password" id="pword" name="pword" minlength="12" />
+              <input
+                type="password"
+                id="pword"
+                name="pword"
+                minlength="12"
+                required
+              />
             </div>
             <div class="form-element">
               <label for="confirm-pword">CONFIRM PASSWORD</label>
@@ -61,7 +70,11 @@
             </div>
           </div>
         </form>
-        <button type="submit" form="myForm" value="update">Submit</button>
+        <div>
+          <button type="submit" form="myForm" value="update">
+            Create Account
+          </button>
+        </div>
       </div>
     </div>
   </body>

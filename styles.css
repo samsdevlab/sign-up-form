@@ -126,3 +126,7 @@ form > legend {
   display: flex;
   flex-direction: column;
 }
+
+.form-element > label {
+  font-size: 0.6rem;
+}

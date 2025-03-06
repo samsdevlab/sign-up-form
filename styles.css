@@ -71,14 +71,14 @@ Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-
 */
 
 .main {
-  background-color: #f8f8f2;
+  background-color: #faf3e0; /**/
   width: 75%;
   display: flex;
 }
 
 .main-right {
   flex: 1;
-  margin: 3rem;
+  /* padding: 3rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,4 +88,28 @@ Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-
 .main-right > p {
   color: #121212;
   font-size: 1.5rem;
+  padding: 3rem;
+}
+
+.main-right > form {
+  background-color: #ffffff;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+
+form > legend {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 0.75rem;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
 }

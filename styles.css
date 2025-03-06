@@ -70,6 +70,18 @@ Deep Cyan (#00FFFF or #00B7EB) – For that Tron-like cyberpunk glow.
 Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-fi mystery into the palette.
 */
 
+/* Fonts 
+Rockwell Extra Bold
+*/
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
+    url("/fonts/SpaceGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main {
   background-color: #faf3e0; /**/
   width: 75%;
@@ -83,6 +95,7 @@ Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Space Grotesk";
 }
 
 .main-right > p {

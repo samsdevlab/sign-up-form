@@ -18,6 +18,9 @@ html {
 body {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c2a44;
 }
 
 h1,
@@ -42,6 +45,7 @@ svg,
 video {
   display: block;
   max-width: 100%;
+  height: 100vh;
 }
 
 input,
@@ -49,4 +53,21 @@ textarea,
 button,
 select {
   font: inherit;
+}
+
+/* Colors:
+🟢 Core Colors:
+• Background - Midnight Blue - #1c2a44 - Dark, Horror Aesthetic
+• Headings & Titles: Muted Neon Yellow (#D4D400) – For that eerie, classic horror movie poster look.
+• Main Text - Soft White (#EAEAEA or #F8F8F2)
+• Logos/Accents: Toxic Green (#39FF14 or #00FF00) - For glowing text, buttons, and sci-fi energy.
+• Error or Urgent Callouts: Blood Orange (#FF5F1F) - Horror/scientific urgency (error messages, warnings, or subtle highlights).
+• Dark UI Elements, to prevent neon overload - Steel Gray (#1C1C1C or #444444);
+
+🔵 Secondary Cyber Accents (Optional):
+Deep Cyan (#00FFFF or #00B7EB) – For that Tron-like cyberpunk glow.
+Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-fi mystery into the palette.
+*/
+
+.main {
 }

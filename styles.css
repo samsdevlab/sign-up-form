@@ -109,7 +109,7 @@ header > h1 {
 
 header > p {
   color: #121212;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 1rem 3rem 2.5rem;
 }
 
@@ -150,9 +150,18 @@ input:focus {
   box-shadow: 2px 2px 5px #39ff14;
 }
 
+footer {
+  padding: 1.5rem 3rem;
+}
+
 button {
   background-color: #39ff14;
   border-radius: 5%;
   padding: 1rem;
   box-shadow: 2px 2px 3px #121212;
+  margin-bottom: 1rem;
+}
+
+.login-button {
+  color: #8b5cf6;
 }

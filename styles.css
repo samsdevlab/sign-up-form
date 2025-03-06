@@ -109,6 +109,7 @@ Rockwell Extra Bold
   width: 100%;
   gap: 1rem;
   padding: 1rem 3rem;
+  box-shadow: 1px 1px 5px #121212;
 }
 
 form > legend {
@@ -129,4 +130,13 @@ form > legend {
 
 .form-element > label {
   font-size: 0.6rem;
+}
+
+input[type="password"]:invalid {
+  border: 2px solid #ff5f1f;
+}
+
+input:focus {
+  outline: 1px solid #39ff14;
+  box-shadow: 2px 2px 5px #39ff14;
 }

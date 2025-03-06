@@ -63,6 +63,7 @@ select {
 • Logos/Accents: Toxic Green (#39FF14 or #00FF00) - For glowing text, buttons, and sci-fi energy.
 • Error or Urgent Callouts: Blood Orange (#FF5F1F) - Horror/scientific urgency (error messages, warnings, or subtle highlights).
 • Dark UI Elements, to prevent neon overload - Steel Gray (#1C1C1C or #444444);
+Deep Black (#0A0A0A or #121212) – For high contrast, terminal-like aesthetics, and a “cyber” vibe.
 
 🔵 Secondary Cyber Accents (Optional):
 Deep Cyan (#00FFFF or #00B7EB) – For that Tron-like cyberpunk glow.
@@ -72,4 +73,18 @@ Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-
 .main {
   background-color: white;
   width: 70%;
+  display: flex;
+}
+
+.main-right {
+  background-color: #0a0a0a;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-right > h2 {
+  color: #d4d400;
+  font-size: 4rem;
 }

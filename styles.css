@@ -107,17 +107,17 @@ Rockwell Extra Bold
   color: #39ff14;
   position: absolute;
   bottom: 0.4rem;
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
 }
 
 .main-right {
   flex: 1;
   position: relative;
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
 }
 
 header > h1 {
-  font-family: "Rockwell Extra Bold";
+  font-family: "Rockwell Extra Bold", "Courier New", Courier, monospace, serif;
   font-size: 3rem;
   padding: 3rem 3rem 1rem;
 }
@@ -163,7 +163,7 @@ input[type="password"]:invalid {
 input:focus {
   outline: 1px solid #39ff14;
   border: 1px solid #39ff14;
-  box-shadow: 2px 2px 5px #39ff14;
+  box-shadow: 2px 2px 3px #39ff14;
 }
 
 footer {

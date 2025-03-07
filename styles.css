@@ -60,7 +60,7 @@ select {
 • Background - Midnight Blue - #1c2a44 - Dark, Horror Aesthetic
 • Headings & Titles: Muted Neon Yellow (#D4D400) – For that eerie, classic horror movie poster look.
 • Main Backgrounds - Soft White (#F8F8F2 for blog posts, etc. #faf3e0 (more parchment-like) for forms
-• Logos/Accents: Toxic Green (#39FF14 or #00FF00) - For glowing text, buttons, and sci-fi energy.
+• Logos/Accents: Toxic Green (#39FF14) - For glowing text, buttons, and sci-fi energy.
 • Error or Urgent Callouts: Blood Orange (#FF5F1F) - Horror/scientific urgency (error messages, warnings, or subtle highlights).
 • Dark UI Elements, to prevent neon overload - Steel Gray (#1C1C1C or #444444);
 • Deep Black (#0A0A0A or #121212) – Write posts with this. For high contrast, terminal-like aesthetics, and a “cyber” vibe.
@@ -96,8 +96,23 @@ Rockwell Extra Bold
   display: flex;
 }
 
+.main-left {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.main-left .photo-cred {
+  font-size: 0.7rem;
+  color: #39ff14;
+  position: absolute;
+  bottom: 0.4rem;
+  font-family: "Space Grotesk";
+}
+
 .main-right {
   flex: 1;
+  position: relative;
   font-family: "Space Grotesk";
 }
 
@@ -147,6 +162,7 @@ input[type="password"]:invalid {
 
 input:focus {
   outline: 1px solid #39ff14;
+  border: 1px solid #39ff14;
   box-shadow: 2px 2px 5px #39ff14;
 }
 

@@ -167,7 +167,7 @@ input:focus {
 }
 
 footer {
-  padding: 1.5rem 3rem;
+  padding: 3rem;
 }
 
 button {
@@ -175,7 +175,7 @@ button {
   border-radius: 5%;
   padding: 1rem;
   box-shadow: 2px 2px 3px #121212;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .login-button {

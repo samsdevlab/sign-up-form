@@ -55,25 +55,6 @@ select {
   font: inherit;
 }
 
-/* Colors:
-🟢 Core Colors:
-• Background - Midnight Blue - #1c2a44 - Dark, Horror Aesthetic
-• Headings & Titles: Muted Neon Yellow (#D4D400) – For that eerie, classic horror movie poster look.
-• Main Backgrounds - Soft White (#F8F8F2 for blog posts, etc. #faf3e0 (more parchment-like) for forms
-• Logos/Accents: Toxic Green (#39FF14) - For glowing text, buttons, and sci-fi energy.
-• Error or Urgent Callouts: Blood Orange (#FF5F1F) - Horror/scientific urgency (error messages, warnings, or subtle highlights).
-• Dark UI Elements, to prevent neon overload - Steel Gray (#1C1C1C or #444444);
-• Deep Black (#0A0A0A or #121212) – Write posts with this. For high contrast, terminal-like aesthetics, and a “cyber” vibe.
-
-🔵 Secondary Cyber Accents (Optional):
-Deep Cyan (#00FFFF or #00B7EB) – For that Tron-like cyberpunk glow.
-Electric Purple (#6A0DAD or #8B5CF6) – Can be used in subtle areas to mix sci-fi mystery into the palette.
-*/
-
-/* Fonts 
-Rockwell Extra Bold
-*/
-
 @font-face {
   font-family: "Space Grotesk";
   src: url("/fonts/SpaceGrotesk-Regular.woff2") format("woff2"),
